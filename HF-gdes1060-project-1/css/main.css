@@ -1,0 +1,131 @@
+body {
+    font-family: 'Campaign', sans-serif;
+    color: #FFFFFF;
+    background: url(../img/background.png) no-repeat 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+header {
+    padding: .5rem .5rem; 
+    text-align: center;
+}
+
+header a {
+    padding: 1rem;
+    font-size: px;
+    text-align: center;
+}
+header a:hover {
+    color: #ED6303;
+}
+
+header .logo {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+
+main {
+     padding: 3rem 1.5rem; 
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-top: 1.5rem;
+}
+h1 {
+    font-family: 'Eagle';
+    color: #F27F2F;
+    font-size: 70px;
+    stroke-color: #FFFFFF;
+
+}
+h2 {
+    font-family: 'Eagle';
+    color: #F27F2F;
+    font-size: 50px;
+    stroke-color: #FFFFFF;
+}
+
+article {
+    background-color: #F8B5CB;
+    padding: 3rem; 
+    text-align: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+aside {
+ background: url(../img/border.png) no-repeat 50% 50%;;
+    padding: 3rem 1.5rem; 
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h6 {
+  color: #F27F2F;
+    font-size: 40px;
+    stroke-color: #FFFFFF;
+}
+footer { 
+    background-color: #F8B5CB;
+    padding: 2.5rem 1.5rem; 
+    text-align: center;
+}
+
+
+footer a {
+    color: #000000;
+    padding: 0.5rem;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    color: #000000;
+    margin-top: 0;
+}
+
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16.5px;
+}
+
+.two-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.two-col li {
+  display: inline-block;
+  margin: center;
+}
+
+.two-col a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
